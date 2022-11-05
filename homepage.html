@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Global Teller Machine 2.0</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="homepage.css" />
+    </head>
+    <body>
+        <div id="window">
+            <div>
+                <p><b id="header">Home Page</b><a href="setting.html"><img id="setting_icon" src="./setting_icon.png" alt="setting_icon"/></a></p>
+            </div>
+            <div id="subheader">
+                <p>Please choose your service</p>
+            </div>
+
+            <div id="service">
+                <script>
+                    window.onload = function(){
+                        var transfer = document.getElementById('transfer');
+                        transfer.onclick = function(){
+                            window.open('transfer.html', "_self");
+                        }
+
+                        var deposit = document.getElementById('deposit');
+                        deposit.onclick = function(){
+                            window.open('deposit.html', "_self");
+                        }
+
+                        var withdraw = document.getElementById('withdraw');
+                        withdraw.onclick = function(){
+                            window.open('withdraw.html', "_self");
+                        }
+
+                        var view = document.getElementById('view');
+                        view.onclick = function(){
+                            window.open('view.html', "_self");
+                        }
+                    }
+                </script>
+                <div id="transfer" class="but">
+                    <p>Transfer Money</p>
+                </div>
+                <div id="deposit" class="but">
+                    <p>Deposit Money</p>
+                </div>
+                <div id="withdraw" class="but">
+                    <p>Withdraw Money</p>
+                </div>
+                <div id="view" class="but">
+                    <p>View Account</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
