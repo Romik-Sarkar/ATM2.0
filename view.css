@@ -1,0 +1,29 @@
+#window{
+    border: 2px solid gray;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    padding: 10px;
+}
+
+#back{
+    width: 40px;
+    height: 40px;
+}
+
+#header{
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+}
+
+#view{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    right: 42%;
+}
