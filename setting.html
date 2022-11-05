@@ -32,6 +32,11 @@
                         contact_info.onclick = function(){
                             alert('You are changing contact info');
                         }
+
+                        var signout = document.getElementById('signout');
+                        signout.onclick = function(){
+                            window.open('login.html', "_self");
+                        }
                     }
                 </script>
                 <div>
@@ -42,6 +47,9 @@
                 </div>
                 <div>
                     <p id="contact_info">Manage Contact info <img class="front_icon" src="./front_icon.png" alt="front_icon"/></p>
+                </div>
+                <div>
+                    <p id="signout">Sign out <img class="front_icon" src="./front_icon.png" alt="front_icon"/></p>
                 </div>
             </div>
         </div>
