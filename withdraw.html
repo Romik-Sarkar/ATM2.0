@@ -3,9 +3,45 @@
     <head>
         <title>Global Teller Machine 2.0</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="withdraw.css" />
+        <link rel="stylesheet" type="text/css" href="transfer.css" />
     </head>
     <body>
-        Withdraw
+        <div id="window">
+            <a>
+                <img id="back" onclick="history.back()" src="./back_icon.png" alt="Back"/>
+            </a>
+            <div>   
+                    <b id="header">Withdraw Money</b>
+                    <a href="setting.html">
+                        <img id="setting_icon" src="./setting_icon.png" alt="Setting" />
+                    </a>
+            </div>
+            <form method="post">
+                <div id="main_body">
+                
+                    <div>
+                        <p>Choose an account to withdraw from</p>
+
+                        <select>
+                            <script>
+                                //NEED TO IMPLEMENT
+                                //DISPLAY ALL ACCOUNT
+                            </script>
+                            <option></option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <p>Enter an amount to withdraw</p>
+                        <span>$</span>
+                        <input id="switch_to_next" class="amount" type="text"/>.<input class="amount" type="text" size="2" maxlength="2"/>
+                    </br></br>
+                        
+                    </div>
+                    <input type="button" value="Withdraw"/>
+                </div>
+                
+            </form>
+        </div>
     </body>
 </html>
