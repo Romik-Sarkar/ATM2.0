@@ -3,17 +3,17 @@
     <head>
         <title>Global Teller Machine 2.0</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="transfer.css" />
+        <link rel="stylesheet" type="text/css" href="../css/withdraw.css" />
     </head>
     <body>
         <div id="window">
             <a>
-                <img id="back" onclick="history.back()" src="./back_icon.png" alt="Back"/>
+                <img id="back" onclick="history.back()" src="../assets/back_icon.png" alt="Back"/>
             </a>
             <div>   
-                    <b id="header">Transfer Money</b>
+                    <b id="header">Withdraw Money</b>
                     <a href="setting.html">
-                        <img id="setting_icon" src="./setting_icon.png" alt="Setting" />
+                        <img id="setting_icon" src="../assets/setting_icon.png" alt="Setting" />
                     </a>
             </div>
             <form method="post">
@@ -32,24 +32,13 @@
                     </div>
 
                     <div>
-                        <p>Choose an account to transfer to</p>
-                        <select>
-                            <script>
-                                //NEED TO IMPLEMENT
-                                //DISPLAY ALL ACCOUNT
-                            </script>
-                            <option></option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <p>Enter an amount to transfer</p>
+                        <p>Enter an amount to withdraw</p>
                         <span>$</span>
                         <input id="switch_to_next" class="amount" type="text"/>.<input class="amount" type="text" size="2" maxlength="2"/>
                     </br></br>
                         
                     </div>
-                    <input type="button" value="Transfer"/>
+                    <input type="button" value="Withdraw"/>
                 </div>
                 
             </form>
