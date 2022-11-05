@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Setting</title>
+        <title>Global Teller Machine 2.0</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="setting.css" />
     </head>
     <body>
-        <p>hello</p>
-        <p>test</p>
+        <div id="window">
+            <a>
+                <img id="back" onclick="history.back()" src="./back_icon.png" alt="Back"/>
+            </a>
+            <div class="header">
+                <b>Account Setting</b>
+            </div>
+            <div id="feature">
+                <script>
+                    window.onload = function (){
+                        //Have not implement yet
+                        //Need interaction with database to retrieve data first
+                        var profile = document.getElementById('profile');
+                        profile.onclick = function(){
+                            alert('You are viewing profile');
+                        }
 
+                        var password = document.getElementById('password');
+                        password.onclick = function(){
+                            alert('You are changing password');
+                        }
+
+                        var contact_info = document.getElementById('contact_info');
+                        contact_info.onclick = function(){
+                            alert('You are changing contact info');
+                        }
+                    }
+                </script>
+                <div>
+                    <p id="profile">Profile<img class="front_icon" src="./front_icon.png" alt="front_icon"/></p> 
+                </div>
+                <div>
+                    <p id="password">Change Password<img class="front_icon" src="./front_icon.png" alt="front_icon"/></p>
+                </div>
+                <div>
+                    <p id="contact_info">Manage Contact info <img class="front_icon" src="./front_icon.png" alt="front_icon"/></p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

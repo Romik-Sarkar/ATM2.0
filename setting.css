@@ -1,0 +1,57 @@
+#back{
+    width: 40px;
+    height: 40px;
+}
+
+.header{
+    font-size: 30px;
+    text-align: center;
+}
+
+#window{
+    border: 2px solid gray;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    padding: 10px;
+}
+
+#profile{
+    font-size: 24px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    border-bottom: 1px dashed gray;
+}
+
+#password{
+    font-size: 24px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    border-bottom: 1px dashed gray;
+}
+
+#contact_info{
+    font-size: 24px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    border-bottom: 1px dashed gray;
+}
+
+.front_icon{
+    position: absolute;
+    right: 0%;
+    bottom: 0.5px;
+    width: 40px;
+    height: 40px;
+}
