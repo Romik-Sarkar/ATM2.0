@@ -3,6 +3,7 @@ public class Deposit extends Transaction{
 
     }
 
+    //deposit function
     public static boolean deposit(Account acc, double amt){
         if(amt >= 0){
             acc.setBalance(amt);
