@@ -46,6 +46,8 @@ public class login {
             in.nextLine(); //clear buffer
         }while(!choice.equals("y"));
         System.out.println("Have a good day!");
+
+        //in.close();
     }
 
 

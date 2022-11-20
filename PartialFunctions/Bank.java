@@ -15,5 +15,5 @@ public class Bank {
         map.put(user, acc);
     }
 
-    public HashMap getMap() { return map; }
+    public HashMap<User, ArrayList<Account>> getMap() { return map; }
 }

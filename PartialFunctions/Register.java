@@ -26,6 +26,8 @@ public class Register {
 
         //could begin using the services
         user.service();
+
+        //in.close();
     }
 
     //Enter bank account that the user has
@@ -51,6 +53,8 @@ public class Register {
             choice = in.next();
             in.nextLine();
         }while(!choice.equals("n"));
+
+        //in.close();
 
         return accList;
     }
